@@ -1,7 +1,7 @@
 /*
-Theme Name: LearningWordPress
-Author: LearnWebCode
-Author URI: http://www.youtube.com/user/LearnWebCode
+Theme Name: Template Practice
+Author: Saied Abbasi
+Author URI: http://www.saiedabbasi.com
 Version: 1.0
 */
 
@@ -145,4 +145,38 @@ article.post:last-of-type {
 article.page h2 {
 	font-size: 225%;
 	margin-bottom: 15px;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+/* Two Column Title Layout */
+div.title-column {
+	width: 30%;
+	float: left;
+}
+
+div.text-column {
+	width: 70%;
+	float: right;
+}
+
+/* Info Box Styles */
+div.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #EEE;
+}
+
+div.info-box h4 {
+	margin-bottom: 6px;
+}
+
+div.info-box p {
+	font-size: 85%;
 }
